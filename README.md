@@ -3,14 +3,20 @@ Graphically shows textual content using Python, NLTK, Matplotlib
 
 The program simplifies every sentence in a paragraph and graphically represents them as two connected entities. The two entities represent prominent nouns and the connection between them is an action which is performed.
 
-For example ,consider the sentence: Jack had a good day. 
+For example ,consider the sentence: Jack had a good day.
+
+
 Entity1 :  Jack
+
 Entity2 : day
+
 Action  : had
+
 Our expected output should be
 
 
                             Jack    ----------had-------------->   day
+
 
 NLTK (Natural Language ToolKit) module is used to break down the given sentence and understand the meaning of each word.
 
@@ -18,23 +24,41 @@ NLTK uses a set of predefined tag words  with which it compares the sentence.
 Some tag word defined are:
 
 ADJ	adjective	new, good, high, special, big, local
+
 ADV	adverb	really, already, still, early, now
+
 CNJ	conjunction	and, or, but, if, while, although
+
 DET	determiner	the, a, some, most, every, no
+
 EX	existential	there, there's
+
 FW	foreign word	dolce, ersatz, esprit, quo, maitre
+
 MOD	modal verb	will, can, would, may, must, should
+
 N	noun	year, home, costs, time, education
+
 NP	proper noun	Alison, Africa, April, Washington
+
 NUM	number	twenty-four, fourth, 1991, 14:24
+
 PRO	pronoun	he, their, her, its, my, I, us
+
 P	preposition	on, of, at, with, by, into, under
+
 TO	the word to	to
+
 UH	interjection	ah, bang, ha, whee, hmpf, oops
+
 V	verb	is, has, get, do, make, see, run
+
 VD	past tense	said, took, told, made, asked
+
 VG	present participle	making, going, playing, working
+
 VN	past participle	given, taken, begun, sung
+
 WH	wh determiner	who, which, when, what, where, how
     
     for item in ExampleText:
@@ -102,7 +126,7 @@ G=nx.DiGraph()
                 curNNP=a.leaves()
                 
                 graphlabelNouns.append(curNNP)                                     
-       			      	.
+       			      	      .
       				      .
 		      		      .
                   G.add_node(tuple(n1))
@@ -110,6 +134,6 @@ G=nx.DiGraph()
                   G.add_edge(tuple(n1),tuple(n2),label=tuple(v))                                       
        				      .
 			      	      .
-				            .
+				      .
 				            
 				    
