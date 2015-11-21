@@ -20,7 +20,8 @@ Our expected output should be
 
 NLTK (Natural Language ToolKit) module is used to break down the given sentence and understand the meaning of each word.
 
-https://cloud.githubusercontent.com/assets/8260656/11280036/dd80c420-8f19-11e5-8f1b-21b2354b7ea8.png
+![image](https://cloud.githubusercontent.com/assets/8260656/11280036/dd80c420-8f19-11e5-8f1b-21b2354b7ea8.png)
+
 
 NLTK uses a set of predefined tag words  with which it compares the sentence.
 Some tag word defined are:
@@ -139,10 +140,11 @@ G=nx.DiGraph()
 				      .
 To verify if a pronoun encountered links to the previously mentioned LivingNoun, the example sentence is modified.
 
-https://cloud.githubusercontent.com/assets/8260656/11280045/edbd1406-8f19-11e5-949f-062d9c4a5ae7.png
+![image](https://cloud.githubusercontent.com/assets/8260656/11280045/edbd1406-8f19-11e5-949f-062d9c4a5ae7.png)
+
 
 Encountering another noun should add nodes to the graph correspondingly.
-https://cloud.githubusercontent.com/assets/8260656/11280070/04dc06a6-8f1a-11e5-8778-f7034360a144.png
+![image](https://cloud.githubusercontent.com/assets/8260656/11280070/04dc06a6-8f1a-11e5-8778-f7034360a144.png)
 
 				            
 				    
